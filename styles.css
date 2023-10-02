@@ -11,7 +11,7 @@
 }
 
 #container::before {
-  left: -120px; /* Adjust the position as needed */
+ 
   top: 0;
 }
 
@@ -20,7 +20,7 @@
   color: #f00;
   font-size: 20px;
   position: absolute;
-  right: -120px; /* Adjust the position as needed */
+
   top: 0;
 }
 
