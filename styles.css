@@ -1,6 +1,6 @@
 #container {
   margin: 20px;
-  position: relative;
+  
 }
 
 #container::before
@@ -8,7 +8,7 @@
   color: #f00;
   font-size: 20px;
   left:1px
-  position: absolute;
+  
  
 }
 
@@ -18,7 +18,7 @@
   content: "after element";
   color: #f00;
   font-size: 20px;
-  position: absolute;
+
 
  
 }
