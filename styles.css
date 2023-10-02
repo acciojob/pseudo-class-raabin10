@@ -3,17 +3,16 @@
   position: relative;
 }
 
-#container::before, #container::after {
-  content: "before element";
+#container::before
+{ content: "before element";
   color: #f00;
   font-size: 20px;
+  left:1px
   position: absolute;
+ 
 }
 
-#container::before {
- 
-  top: 0;
-}
+
 
 #container::after {
   content: "after element";
@@ -21,6 +20,5 @@
   font-size: 20px;
   position: absolute;
 
-  top: 0;
+ 
 }
-
